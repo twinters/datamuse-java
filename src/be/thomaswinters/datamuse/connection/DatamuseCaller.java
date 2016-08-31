@@ -16,9 +16,9 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
 
-import be.thomaswinters.datamuse.constrainer.DatamuseQuery;
 import be.thomaswinters.datamuse.constraints.IDatamuseConstraint;
 import be.thomaswinters.datamuse.data.DatamuseWord;
+import be.thomaswinters.datamuse.query.DatamuseQuery;
 
 /**
  * This class can call  the datamuse api using a DatamuseQuery

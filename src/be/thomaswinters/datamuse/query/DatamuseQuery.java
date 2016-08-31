@@ -1,4 +1,4 @@
-package be.thomaswinters.datamuse.constrainer;
+package be.thomaswinters.datamuse.query;
 
 import java.util.Collection;
 
