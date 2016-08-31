@@ -44,8 +44,8 @@ public class DatamuseQuery {
 	/*-********************************************-*
 	 *  Constructor
 	 *-********************************************-*/
-	private DatamuseQuery(ImmutableList<IDatamuseConstraint> constraints) {
-		this.constraints = constraints;
+	private DatamuseQuery(Collection<? extends IDatamuseConstraint> constraints) {
+		this.constraints = ImmutableList.copyOf(constraints);
 	}
 
 	public DatamuseQuery() {
