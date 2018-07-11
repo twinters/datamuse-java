@@ -7,11 +7,11 @@ You need to use (Gradle)[https://gradle.org/] in order to get this project to co
 This tool is usually already installed when using (IntellIJ)[https://www.jetbrains.com/idea/]
 
 ## Example usage
-
+```
 DatamuseCaller caller = new DatamuseCaller();
 DatamuseQuery query = (new DatamuseQuery())
         .relatedAdjectiveFor("water")
         .withinTopicHint("ocean","temperature")
         .startingWith("s");
-
+```
 List<DatamuseWord> words = caller.call(query);
