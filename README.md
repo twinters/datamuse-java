@@ -13,5 +13,5 @@ DatamuseQuery query = (new DatamuseQuery())
         .relatedAdjectiveFor("water")
         .withinTopicHint("ocean","temperature")
         .startingWith("s");
-```
 List<DatamuseWord> words = caller.call(query);
+```
